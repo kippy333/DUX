@@ -1,0 +1,27 @@
+.nav-pills .nav-link {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border-radius: 0.5rem; 
+}
+
+.nav-pills .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* hover effect */
+  color: #ffffff;
+}
+
+.nav-pills .nav-link.active {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  box-shadow: none;
+}
+
+.navbar{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+body {
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+  }
+  
