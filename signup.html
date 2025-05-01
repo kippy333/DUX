@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta tags for character encoding and responsive design -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Peer Mentor Hub</title>
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <!-- Custom CSS -->
     <link href="css/custom.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
 </head>
 <body>
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
+            <!-- Dropdown Menu -->
             <ul class="nav nav-pills">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
@@ -24,6 +30,7 @@
                         <li><a class="dropdown-item" href="#">Separated link</a></li>
                     </ul>
                 </li>
+                <!-- Navigation Links -->
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">HOME</a>
                 </li>
@@ -38,44 +45,52 @@
                 </li>
             </ul>
 
+            <!-- Icons Section -->
             <div class="ms-auto d-flex align-items-center">
                 <a href="#" class="nav-link icon-link px-2">
                     <i class="bi bi-gear"></i>
-                <a href = "#" class="nav-link icon-link px-2">
-                    <i class="bi bi-person-circle fs-3"></i>
                 </a>
+                <a href="#" class="nav-link icon-link px-2">
+                    <i class="bi bi-person-circle fs-3"></i>
                 </a>
             </div>
         </div>
     </nav>
 
-<div class="signup-form-container">
-    <form action="action_page.php" class="signup-form">
-        <div class="form-tabs d-flex">
-            <button class="tab-label active-tab">Sign Up</button>
-            <button class="tab-label">Login</button>
-        </div>
-
-        <div class="container">
-            <label for="Name"><b>Full Name</b></label>
-            <input type="text" placeholder="Your Name" name="Name" required>
-
-            <label for="email"><b>Email</b></label>
-            <input type="text" placeholder="University Email" name="email" required>
-
-            <label for="psw-repeat"><b>Password</b></label>
-            <input type="password" placeholder="Password" name="psw-repeat" required>
-
-            <div class="clearfix">
-                <button type="button" class="StudentSignup" onclick="window.location.href='booking.html'">Student Signup</button>
-                <button type="submit" class="signupbtn">Tutor Signup</button>
+    <!-- Signup Form -->
+    <div class="signup-form-container">
+        <form action="action_page.php" class="signup-form">
+            <!-- Tabs for Sign Up and Login -->
+            <div class="form-tabs d-flex">
+                <button class="tab-label active-tab">Sign Up</button>
+                <button class="tab-label">Login</button>
             </div>
-            <p class="mt-2">By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-        </div>
-    </form>
-</div>
 
+            <div class="container">
+                <!-- Full Name Input -->
+                <label for="Name"><b>Full Name</b></label>
+                <input type="text" placeholder="Your Name" name="Name" required>
 
+                <!-- Email Input -->
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="University Email" name="email" required>
+
+                <!-- Password Input -->
+                <label for="psw-repeat"><b>Password</b></label>
+                <input type="password" placeholder="Password" name="psw-repeat" required>
+
+                <!-- Signup Buttons -->
+                <div class="clearfix">
+                    <button type="button" class="StudentSignup" onclick="window.location.href='booking.html'">Student Signup</button>
+                    <button type="submit" class="signupbtn">Tutor Signup</button>
+                </div>
+                <!-- Terms and Privacy Notice -->
+                <p class="mt-2">By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+            </div>
+        </form>
+    </div>
+
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </body>
 </html>
