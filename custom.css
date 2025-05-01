@@ -1,0 +1,161 @@
+.nav-pills .nav-link {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border-radius: 0.5rem; 
+}
+
+.nav-pills .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important; /* hover effect */
+  color: #ffffff;
+}
+
+.nav-pills .nav-link.active {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  box-shadow: none;
+}
+
+.navbar{
+    background-color: transparent !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.navbar.bg-light {
+  background-color: transparent !important;
+}
+
+.icon-link {
+  color:#ffffff !important;
+  padding: 0.5rem 0.75rem !important;
+  transition: all 0.3s ease;
+}
+
+.icon-link:hover{
+  color: rgba(255, 255, 255, 0.8) !important;
+  transform: scale(1,1) 
+}
+
+.icon-link i {
+    color: white !important; 
+    font-size: 1.5rem; 
+    transition: all 0.2s ease;
+}
+
+.icon-link:hover i {
+    color: rgba(255, 255, 255, 0.8) !important;
+    transform: scale(1.1);
+}
+
+body {
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+ 
+ * {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Sign up form template from w3schools */
+
+/* Set a style for all buttons */
+button {
+  background-color: #3498db;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.StudentSignup {
+  padding: 14px 20px;
+  background-color: #474444;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+.signup-form-container{
+  position: fixed;
+  bottom: 100px;
+  left: 80px;
+  z-index: 1000;
+  max-width: 400px;
+  width: 100%;
+}
+
+.signup-form{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.form-tabs{
+  background-color: #ffffff;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+}
+
+.tab-label{
+  flex: 1;
+  border: none;
+  background-color: #f1f1f1;
+  color: #333;
+  font-weight: bold;
+  padding: 12px;
+  cursor: default;
+  transition: background-color 0.3s ease;
+}
+
+.tab-label:first-child{
+  border-right: 1px solid #ccc;
+}
+
+.tab-label:hover{
+  background-color: #e0e0e0;
+}
