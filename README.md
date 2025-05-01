@@ -2,7 +2,7 @@
 # peerMentor
 
 
-[Link to live site here- 'this appears as lint to click']( https://kippy333.github.io/DUX/')
+[Link to live site here- 'this appears as lint to click']( https://kippy333.github.io/DUX/)
 
 ![Am I responsive image](can include a path website image file stored in assets)
 
