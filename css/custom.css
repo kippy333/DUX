@@ -80,7 +80,7 @@ hr {
 
 /* Set a style for all buttons */
 button {
-  background-color: #04AA6D;
+  background-color: #3498db;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -95,15 +95,9 @@ button:hover {
 }
 
 /* Extra styles for the cancel button */
-.cancelbtn {
+.StudentSignup {
   padding: 14px 20px;
-  background-color: #f44336;
-}
-
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
+  background-color: #474444;
 }
 
 /* Add padding to container elements */
@@ -139,4 +133,29 @@ button:hover {
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   overflow: hidden;
+}
+
+.form-tabs{
+  background-color: #ffffff;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+}
+
+.tab-label{
+  flex: 1;
+  border: none;
+  background-color: #f1f1f1;
+  color: #333;
+  font-weight: bold;
+  padding: 12px;
+  cursor: default;
+  transition: background-color 0.3s ease;
+}
+
+.tab-label:first-child{
+  border-right: 1px solid #ccc;
+}
+
+.tab-label:hover{
+  background-color: #e0e0e0;
 }
